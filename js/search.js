@@ -10,11 +10,12 @@ searchBtn.addEventListener('click', ()=>{
     search.style.cursor = 'text';
     search.focus();
     searchAnimation.style.animation = 'none';
+    searchAnimation.style.zIndex = "-1";
 });
  search.addEventListener('blur',()=>{
     search.style.width = '20px';
     search.style.paddingLeft = '20px';
     search.style.cursor = 'pointer';
-    search.value = "";
+    search.value = ""; 
     searchAnimation.style.animation = 'grow 1s infinite 2s';
  });
