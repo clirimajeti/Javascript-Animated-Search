@@ -10,6 +10,7 @@ searchBtn.addEventListener('click', ()=>{
     search.style.cursor = 'text';
     search.focus();
     searchAnimation.style.animation = 'none';
+    searchAnimation.style.opacity = "0";
     searchAnimation.style.zIndex = "-1";
 });
  search.addEventListener('blur',()=>{
