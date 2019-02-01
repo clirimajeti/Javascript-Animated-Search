@@ -18,7 +18,3 @@ searchBtn.addEventListener('click', ()=>{
     search.value = "";
     searchAnimation.style.animation = 'grow 1s infinite 2s';
  });
- search.addEventListener('keyup', () => {
-    tip.style.visibility = 'visible';
-    tip.style.opacity = '1';
-})
